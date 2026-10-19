@@ -1,0 +1,16 @@
+{
+  "name": "jasper-login-styles",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Jasper 的十种登录风格预览，支持风格筛选、收藏和桌面/手机预览。",
+  "scripts": {
+    "setup": "node prepare.cjs && npm run build",
+    "build": "node build.cjs",
+    "start": "node server.cjs",
+    "dev": "node server.cjs",
+    "check": "node --check app.js && node --check server.cjs && node --check prepare.cjs && node --check build.cjs"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}
